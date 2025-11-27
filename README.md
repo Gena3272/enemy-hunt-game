@@ -47,7 +47,7 @@ npm run dev
 yarn dev
 ```
 
-Відкрийте [http://localhost:3000](http://localhost:3000) у браузері.
+Відкрийте [http://localhost:3001](http://localhost:3001) у браузері.
 
 ## 🎮 Як грати
 
