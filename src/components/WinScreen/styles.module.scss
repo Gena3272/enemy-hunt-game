@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--gradient-green);
+  padding: 1rem;
+}
+
+.container {
+  background-color: var(--bg-white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-2xl);
+  padding: 2rem;
+  max-width: 28rem;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #059669;
+}
+
+.stats {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--text-gray-700);
+}
+
+.statTime {
+  font-size: 1.25rem;
+}
+
+.statEnemies {
+  font-size: 1.125rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}

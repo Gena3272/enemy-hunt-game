@@ -1,0 +1,52 @@
+.button {
+  width: 100%;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-xl);
+  transition: all 0.2s ease;
+  transform: scale(1);
+  box-shadow: var(--shadow-lg);
+  color: var(--text-white);
+  font-size: 1rem;
+}
+
+.button:hover:not(:disabled) {
+  transform: scale(1.05);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--gradient-blue);
+}
+
+.primary:hover:not(:disabled) {
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+}
+
+.secondary {
+  background-color: var(--bg-gray-600);
+}
+
+.secondary:hover:not(:disabled) {
+  background-color: var(--bg-gray-700);
+}
+
+.danger {
+  background: var(--gradient-danger);
+}
+
+.danger:hover:not(:disabled) {
+  background: linear-gradient(to right, #dc2626, #b91c1c);
+}
+
+.success {
+  background: var(--gradient-success);
+}
+
+.success:hover:not(:disabled) {
+  background: linear-gradient(to right, #059669, #047857);
+}

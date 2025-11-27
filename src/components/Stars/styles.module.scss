@@ -1,0 +1,19 @@
+.stars {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.filled {
+  fill: #ffd700;
+}
+
+.empty {
+  fill: #555555;
+}

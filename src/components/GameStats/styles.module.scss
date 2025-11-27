@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-white);
+}
+
+.itemLevel {
+  background-color: var(--bg-gray-700);
+}
+
+.itemTime {
+  background-color: #2563eb;
+}
+
+.itemEnemies {
+  background-color: #059669;
+}

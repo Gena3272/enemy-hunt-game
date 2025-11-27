@@ -1,0 +1,29 @@
+@import './global.css';
+
+.game-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--bg-dark);
+    padding: 1rem;
+}
+
+.game-screen__container {
+    background-color: var(--bg-gray-800);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-2xl);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.game-screen__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: var(--text-white);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
